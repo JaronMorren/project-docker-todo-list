@@ -1,5 +1,5 @@
 FROM node:14
-WORKDIR /user/src/app/back-end
+WORKDIR /user/source/app/back-end
 EXPOSE 3001
 ADD node_modules.tar.gz ./
 COPY ./ ./
